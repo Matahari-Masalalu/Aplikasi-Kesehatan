@@ -1,9 +1,9 @@
 import streamlit as st
-from home import HomePage
-from obesity import ObesityPage
-from views.calories import CaloriesPage
-from views.skin import SkinPage
-from views.about import AboutPage
+# from home import HomePage
+# from obesity import ObesityPage
+# from views.calories import CaloriesPage
+# from views.skin import SkinPage
+# from views.about import AboutPage
 
 # Fungsi untuk membuat tombol di sidebar
 def sidebar_button(label, selected_page_name, selected_page):
