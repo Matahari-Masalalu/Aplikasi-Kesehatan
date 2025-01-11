@@ -19,17 +19,17 @@ class AboutPage:
             {
                 "nama": "Fasihal Anwar Hasyim",
                 "nim": "32602300021",
-                "gambar": "obesitas.png"
+                "gambar": "images/faishal.jpg"
             },
             {
                 "nama": "Haydar Fahri Alaudin",
                 "nim": "32602300010",
-                "gambar": "obesitas.png"
+                "gambar": "images/haydar.jpeg"
             },
             {
                 "nama": "Mumtaz Fikri Nasrullan",
                 "nim": "32602300002",
-                "gambar": "obesitas.png"
+                "gambar": "images/haydar.jpeg"
             }
         ]
 
