@@ -12,7 +12,7 @@ def sidebar_button(label, selected_page_name, selected_page):
     return selected_page
 
 def main():
-    st.sidebar.title("Menu Aplikasi Kesehatan")
+    st.sidebar.title("Menu")
 
     # Membuat instance dari setiap halaman
     home_page = HomePage()
@@ -38,11 +38,11 @@ def main():
     selected_page = st.session_state.selected_page
 
     # Membuat tombol di sidebar
-    selected_page = sidebar_button("🏠 Home‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Home", selected_page)
-    selected_page = sidebar_button("🧑‍⚕️ Obesitas‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Obesitas", selected_page)
-    selected_page = sidebar_button("🔥 Kalori‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Kalkulator Kebutuhan Kalori", selected_page)
-    selected_page = sidebar_button("🩺 Penyakit Kulit‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Klasifikasi Penyakit Kulit", selected_page)
-    selected_page = sidebar_button("ℹ️ Tentang Aplikasi‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Tentang Aplikasi", selected_page)
+    selected_page = sidebar_button("🏠 Home                          ", "Home", selected_page)
+    selected_page = sidebar_button("🧑‍⚕️ Obesitas                     ", "Obesitas", selected_page)
+    selected_page = sidebar_button("🔥 Kalori                          ", "Kalkulator Kebutuhan Kalori", selected_page)
+    selected_page = sidebar_button("🩺 Penyakit Kulit             ", "Klasifikasi Penyakit Kulit", selected_page)
+    selected_page = sidebar_button("ℹ️ Tentang Aplikasi         ", "Tentang Aplikasi", selected_page)
 
     # Menyimpan halaman yang dipilih ke dalam session state jika ada perubahan
     if selected_page != st.session_state.selected_page:
