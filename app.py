@@ -1,35 +1,55 @@
 import streamlit as st
+from views.home import HomePage
+from views.obesity import ObesityPage
+from views.calories import CaloriesPage
+from views.skin import SkinPage
+from views.about import AboutPage
 
-home_page = st.Page(
-    page="views/home.py",
-    title='Home',
-    icon=":material/home:"
-)
+# Fungsi untuk membuat tombol di sidebar
+def sidebar_button(label, selected_page_name, selected_page):
+    if st.sidebar.button(label, key=label):
+        return selected_page_name
+    return selected_page
 
-obsity_page = st.Page(
-    page="views/obesity.py",
-    title="obesity",
-    icon=":material/boy:"
-)
+def main():
+    st.sidebar.title("Menu Aplikasi Kesehatan")
 
-calories_page = st.Page(
-    page="views/calories.py",
-    title="calories",
-    icon=":material/local_fire_department:"
-)
+    # Membuat instance dari setiap halaman
+    home_page = HomePage()
+    obesity_page = ObesityPage()
+    calories_page = CaloriesPage()
+    skin_page = SkinPage()
+    about_page = AboutPage()
 
-skin_page = st.Page(
-    page="views/skin.py",
-    title="skin",
-    icon=":material/dermatology:"
-)
+    # Mendefinisikan berbagai halaman dalam dictionary
+    pages = {
+        "Home": home_page,
+        "Obesitas": obesity_page,
+        "Kalkulator Kebutuhan Kalori": calories_page,
+        "Klasifikasi Penyakit Kulit": skin_page,
+        "Tentang Aplikasi": about_page
+    }
 
-about_page = st.Page(
-    page="views/about.py",
-    title="about",
-    icon=":material/info:"
-)
+    # Mengatur halaman default ke "Home" jika belum ada yang dipilih
+    if 'selected_page' not in st.session_state:
+        st.session_state.selected_page = "Home"
 
-pg = st.navigation(pages=[home_page,obsity_page,calories_page,skin_page,about_page])
+    # Menyimpan nama halaman yang saat ini dipilih
+    selected_page = st.session_state.selected_page
 
-pg.run()
+    # Membuat tombol di sidebar
+    selected_page = sidebar_button("🏠 Home‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Home", selected_page)
+    selected_page = sidebar_button("🧑‍⚕️ Obesitas‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Obesitas", selected_page)
+    selected_page = sidebar_button("🔥 Kalori‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Kalkulator Kebutuhan Kalori", selected_page)
+    selected_page = sidebar_button("🩺 Penyakit Kulit‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Klasifikasi Penyakit Kulit", selected_page)
+    selected_page = sidebar_button("ℹ️ Tentang Aplikasi‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ", "Tentang Aplikasi", selected_page)
+
+    # Menyimpan halaman yang dipilih ke dalam session state jika ada perubahan
+    if selected_page != st.session_state.selected_page:
+        st.session_state.selected_page = selected_page
+
+    # Menampilkan halaman yang dipilih
+    pages[st.session_state.selected_page].display()
+
+if __name__ == "__main__":
+    main()
