@@ -29,7 +29,7 @@ class AboutPage:
             {
                 "nama": "Mumtaz Fikri Nasrullan",
                 "nim": "32602300002",
-                "gambar": "images/haydar.jpeg"
+                "gambar": "images/mumtaz.jpeg"
             }
         ]
 
