@@ -1,35 +1,39 @@
 import streamlit as st
 
-st.title("Tentang Aplikasi")
-st.write("""
-    Aplikasi ini dibuat untuk membantu Anda menghitung Indeks Massa Tubuh (BMI) dan kebutuhan kalori harian Anda.
-    BMI adalah ukuran yang digunakan untuk menilai berat badan seseorang berdasarkan tinggi badan.
-    
-    **Catatan:** Hasil ini hanya untuk informasi dan tidak menggantikan saran medis profesional.
-""")
+class AboutPage:
+    def __init__(self):
+        self.title = "Tentang Aplikasi"
 
-st.header("Tentang Penulis")
+    def display(self):
+        st.title(self.title)
+        st.write("""
+            Aplikasi ini dibuat untuk membantu Anda menghitung Indeks Massa Tubuh (BMI) dan kebutuhan kalori harian Anda.
+            BMI adalah ukuran yang digunakan untuk menilai berat badan seseorang berdasarkan tinggi badan.
+            
+            **Catatan:** Hasil ini hanya untuk informasi dan tidak menggantikan saran medis profesional.
+        """)
 
-# Informasi Penulis
-penulis = [
-    {
-        "nama": "Fasihal Anwar Hasyim",
-        "nim": "32602300021",
-        "gambar": "obesitas.png"  # Ganti dengan URL gambar profil yang sesuai
-    },
-    {
-        "nama": "Haydar Fahri Alaudin",
-        "nim": "32602300010",
-        "gambar": "obesitas.png"  # Ganti dengan URL gambar profil yang sesuai
-    },
-    {
-        "nama": "Mumtaz Fikri Nasrullan",
-        "nim": "32602300002",
-        "gambar": "obesitas.png"  # Ganti dengan URL gambar profil yang sesuai
-    }
-]
+        st.header("Tentang Penulis")
 
-for penulis_info in penulis:
-    st.subheader(penulis_info["nama"])
-    st.write(f"NIM: {penulis_info['nim']}")
-    st.image(penulis_info["gambar"], width=150)  # Menampilkan gambar profil
+        penulis = [
+            {
+                "nama": "Fasihal Anwar Hasyim",
+                "nim": "32602300021",
+                "gambar": "obesitas.png"
+            },
+            {
+                "nama": "Haydar Fahri Alaudin",
+                "nim": "32602300010",
+                "gambar": "obesitas.png"
+            },
+            {
+                "nama": "Mumtaz Fikri Nasrullan",
+                "nim": "32602300002",
+                "gambar": "obesitas.png"
+            }
+        ]
+
+        for penulis_info in penulis:
+            st.subheader(penulis_info["nama"])
+            st.write(f"NIM: {penulis_info['nim']}")
+            st.image(penulis_info["gambar"], width=150)
