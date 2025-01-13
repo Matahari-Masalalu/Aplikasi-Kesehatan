@@ -51,7 +51,7 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
    ![Cuplikan layar Tentang Aplikasi ](https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2)
 
 ### Use Case Diagram
-![Use Case Diagram](https://github.com/user-attachments/assets/180 50271-36ed-4cda-97e4-3840a18fc61f)
+![1](https://github.com/user-attachments/assets/2bd46437-7216-48cd-9366-daf7d573ba74)
 
 #### Penjelasan dari Use Case Diagram:
 1. **Home Menu**
@@ -117,7 +117,7 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
        1. Relasi ke fitur Informasi tentang aplikasi dan creator.
 
 ### Activity Diagram
-![Activity Diagram](https://github.com/user-attachments/assets/e13d3552-53a4-4f87-9d4c-605cf2e47cde)
+![Cuplikan layar 2025-01-14 045039](https://github.com/user-attachments/assets/d15decb9-0ee1-426d-8a36-986565eaccd7)
 
 #### Penjelasan Alur Aktivitas:
 1. **Masuk ke Home Menu:**
@@ -174,7 +174,7 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
      - Aplikasi menampilkan informasi tentang aplikasi dan pembuatnya.
 
 ### Class Diagram
-![Class Diagram](https://github.com/user-attachments/assets/85b475ec-ffab-412c-abde-bcd8b396d744)
+![Cuplikan layar 2025-01-14 045058](https://github.com/user-attachments/assets/e6b48dba-a828-4250-b90b-beee9a377211)
 
 #### Deskripsi Umum Sistem
 Class diagram yang dibuat menggambarkan hubungan antara berbagai kelas dalam sistem, yaitu **BMICalculator**, **CalorieCalculator**, **SkinDiseaseClassifier**, dan **User **. Diagram ini menunjukkan struktur statis dari sistem, termasuk atribut, metode, dan relasi antar kelas. Sistem ini dirancang untuk:
@@ -235,7 +235,7 @@ d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
 - SkinDiseaseClassifier dapat memproses banyak gambar, tetapi tidak terkait langsung dengan User.
 
 ### Deployment Diagram
-![Deployment Diagram](https://github.com/user-attachments/assets/359e04be-082d-4a89-942f-d61efe13ad67)
+![Cuplikan layar 2025-01-14 045111](https://github.com/user-attachments/assets/b6daeaa8-9eff-4d17-9948-6b4529095449)
 
 #### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan tiga perangkat utama, yaitu Local Server, GitHub Repository, dan Web Server (Streamlit). Berikut adalah penjelasan tiap komponen:
 
