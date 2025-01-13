@@ -44,7 +44,7 @@ Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, 
 
 ### Hasil Pelatihan Model
 Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik lainnya:
-<img src="https://github.com/user-attachments/assets/76dff109-97d7-4e01-9608-962a7846100a" alt="Hasil Pelatihan Model" width="400"/>
+<img src="https://github.com/user-attachments/assets/76dff109-97d7-4e01-9608-962a7846100a" alt="Hasil Pelatihan Model" width="600"/>
 
 ## Evaluation
 Aplikasi ini memberikan hasil langsung kepada pengguna berdasarkan input yang diberikan. Hasil dari kalkulasi BMI dan kebutuhan kalori ditampilkan secara real-time, sementara informasi tentang penyakit kulit disediakan berdasarkan gambar yang diunggah. Aplikasi ini dirancang untuk memberikan informasi yang akurat dan relevan untuk membantu pengguna dalam pengelolaan kesehatan mereka.
@@ -55,32 +55,35 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
 ### Langkah-langkah Penggunaan Aplikasi
 1. **Menu Home**: 
    - Di menu ini, Anda akan menemukan informasi mengenai aplikasi dan cara pengguna annya.
-   <img src="https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14" alt="Cuplikan layar Home" width="400"/>
+   <img src="https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14" alt="Cuplikan layar Home" width="600"/>
 
 2. **Menu Obesitas (Obesity)**: 
    - **Informasi tentang Obesitas**: Menyediakan penjelasan mengenai obesitas, faktor penyebab, dan dampaknya terhadap kesehatan.
-   <img src="https://github.com/user-attachments/assets/96ac94ae-5d71-4c5f-831a-7e6fab4a3195" alt="Cuplikan layar Obesitas" width="400"/>
+   <img src="https://github.com/user-attachments/assets/96ac94ae-5d71-4c5f-831a-7e6fab4a3195" alt="Cuplikan layar Obesitas" width="600"/>
+   
    - **Kalkulator BMI**: Menghitung Indeks Massa Tubuh (BMI) Anda berdasarkan berat dan tinggi badan.
-   <img src="https://github.com/user-attachments/assets/3c411611-e5f7-476e-8949-a306ef693bc2" alt="Cuplikan layar Kalkulator BMI" width="400"/>
+   <img src="https://github.com/user-attachments/assets/3c411611-e5f7-476e-8949-a306ef693bc2" alt="Cuplikan layar Kalkulator BMI" width="600"/>
 
 3. **Menu Kebutuhan Kalori (Calories)**: 
    - **Informasi tentang Kebutuhan Kalori**: Menyediakan penjelasan mengenai pentingnya menghitung kebutuhan kalori harian.
-   <img src="https://github.com/user-attachments/assets/9bfdcd85-5ef9-44be-8dc0-7d4ec7942525" alt="Cuplikan layar Kebutuhan Kalori" width="400"/>
+   <img src="https://github.com/user-attachments/assets/9bfdcd85-5ef9-44be-8dc0-7d4ec7942525" alt="Cuplikan layar Kebutuhan Kalori" width="600"/>
+   
    - **Kalkulator Kebutuhan Kalori**: Menghitung kebutuhan kalori harian Anda berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
-   <img src="https://github.com/user-attachments/assets/f33f5bb7-fcb6-44da-9d31-a337cfe644c8" alt="Cuplikan layar Kalkulator Kebutuhan Kalori" width="400"/>
+   <img src="https://github.com/user-attachments/assets/f33f5bb7-fcb6-44da-9d31-a337cfe644c8" alt="Cuplikan layar Kalkulator Kebutuhan Kalori" width="600"/>
 
 4. **Menu Penyakit Kulit (Skin)**: 
    - **Informasi tentang Penyakit Kulit**: Menyediakan penjelasan mengenai berbagai jenis penyakit kulit dan gejalanya.
-   <img src="https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7" alt="Cuplikan layar Penyakit Kulit" width="400"/>
+   <img src="https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7" alt="Cuplikan layar Penyakit Kulit" width="600"/>
+   
    - **Prediksi Penyakit Kulit**: Menggunakan model machine learning untuk mendiagnosis penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
-   <img src="https://github.com/user-attachments/assets/3368948d-cb7e-481b-b521-2c6e9b78cf20" alt="Cuplikan layar Prediksi Penyakit Kulit" width="400"/>
+   <img src="https://github.com/user-attachments/assets/3368948d-cb7e-481b-b521-2c6e9b78cf20" alt="Cuplikan layar Prediksi Penyakit Kulit" width="600"/>
 
 5. **Menu Tentang Aplikasi (About)**: 
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
-   <img src="https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2" alt="Cuplikan layar Tentang Aplikasi" width="400"/>
+   <img src="https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2" alt="Cuplikan layar Tentang Aplikasi" width="600"/>
 
 ### Use Case Diagram
-<img src="https://github.com/user-attachments/assets/2bd46437-7216-48cd-9366-daf7d573ba74" alt="Use Case Diagram" width="400"/>
+<img src="https://github.com/user-attachments/assets/2bd46437-7216-48cd-9366-daf7d573ba74" alt="Use Case Diagram" width="600"/>
 
 #### Penjelasan dari Use Case Diagram:
 1. **Home Menu**
@@ -108,7 +111,6 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
        1. Relasi ke fitur Informasi tentang obesitas.
        2. Relasi ke BMI Calculator / Obesity Calculator, yang merupakan bagian utama dari menu ini.
 
- ```markdown
 3. **Calories Menu**
    - **Fungsi Utama:**
      - Memberikan informasi tentang kebutuhan kalori.
@@ -147,7 +149,7 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
        1. Relasi ke fitur Informasi tentang aplikasi dan creator.
 
 ### Activity Diagram
-<img src="https://github.com/user-attachments/assets/d15decb9-0ee1-426d-8a36-986565eaccd7" alt="Activity Diagram" width="400"/>
+<img src="https://github.com/user-attachments/assets/d15decb9-0ee1-426d-8a36-986565eaccd7" alt="Activity Diagram" width="600"/>
 
 #### Penjelasan Alur Aktivitas:
 1. **Masuk ke Home Menu:**
@@ -204,7 +206,7 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
      - Aplikasi menampilkan informasi tentang aplikasi dan pembuatnya.
 
 ### Class Diagram
-<img src="https://github.com/user-attachments/assets/e6b48dba-a828-4250-b90b-beee9a377211" alt="Class Diagram" width="400"/>
+<img src="https://github.com/user-attachments/assets/e6b48dba-a828-4250-b90b-beee9a377211" alt="Class Diagram" width="600"/>
 
 #### Deskripsi Umum Sistem
 Class diagram yang dibuat menggambarkan hubungan antara berbagai kelas dalam sistem, yaitu **BMICalculator**, **CalorieCalculator**, **SkinDiseaseClassifier**, dan **User **. Diagram ini menunjukkan struktur statis dari sistem, termasuk atribut, metode, dan relasi antar kelas. Sistem ini dirancang untuk:
@@ -265,7 +267,7 @@ d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
 - SkinDiseaseClassifier dapat memproses banyak gambar, tetapi tidak terkait langsung dengan User.
 
 ### Deployment Diagram
-<img src="https://github.com/user-attachments/assets/b6daeaa8-9eff-4d17-9948-6b4529095449" alt="Deployment Diagram" width="400"/>
+<img src="https://github.com/user-attachments/assets/b6daeaa8-9eff-4d17-9948-6b4529095449" alt="Deployment Diagram" width="600"/>
 
 #### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan tiga perangkat utama, yaitu Local Server, GitHub Repository, dan Web Server (Streamlit). Berikut adalah penjelasan tiap komponen:
 
