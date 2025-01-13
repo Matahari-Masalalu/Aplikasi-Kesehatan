@@ -1,6 +1,8 @@
 # Laporan Proyek Kesehatan
 
 ## Tentang Penulis
+Proyek ini dibuat sebagai tugas untuk mata kuliah **Pemrograman Berorientasi Objek**.
+
 **Faishal Anwar Hasyim**  
   NIM: 32602300021
 
