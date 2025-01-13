@@ -27,14 +27,18 @@ Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberik
 
 1. **Menu Home**:
    - Di menu ini, Anda akan menemukan informasi mengenai aplikasi dan cara penggunaannya. Ini adalah titik awal untuk memahami fitur-fitur yang tersedia.
-   - ![Screenshot Menu Home](link_to_screenshot_home)
+   - ![Cuplikan layar 2025-01-13 205527](https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14)
+
 
 2. **Menu Obesitas**:
    - Di menu ini, terdapat dua opsi:
      - **Informasi tentang Obesitas**: Menyediakan penjelasan mengenai obesitas, faktor penyebab, dan dampaknya terhadap kesehatan.
-       - ![Screenshot Informasi Obesitas](link_to_screenshot_obesity_info)
+     - ![Cuplikan layar 2025-01-13 205732](https://github.com/user-attachments/assets/96ac94ae-5d71-4c5f-831a-7e6fab4a3195)
+
+
      - **Kalkulator BMI**: Menghitung Indeks Massa Tubuh (BMI) Anda berdasarkan berat dan tinggi badan untuk mengecek status obesitas.
-       - ![Screenshot Kalkulator BMI](link_to_screenshot_bmi_calculator)
+     - ![Cuplikan layar 2025-01-13 205909](https://github.com/user-attachments/assets/3c411611-e5f7-476e-8949-a306ef693bc2)
+
 
 3. **Menu Kebutuhan Kalori**:
    - Di menu ini, terdapat dua opsi:
