@@ -68,6 +68,7 @@ Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberik
 6. **Evaluasi Model**: Menggunakan data pengujian untuk mengevaluasi performa model. Metrik yang digunakan dapat mencakup akurasi, precision, recall, dan F1-score.
 7. **Implementasi Model**: Mengimplementasikan model yang telah dilatih ke dalam aplikasi untuk memungkinkan pengguna mengunggah gambar dan mendapatkan prediksi.
 8. **Pengujian dan Validasi**: Melakukan pengujian lebih lanjut untuk memastikan model memberikan hasil yang akurat dan dapat diandalkan dalam situasi nyata.
+9. 
 
 ## Modeling
 Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, dan memberikan informasi tentang penyakit kulit:
