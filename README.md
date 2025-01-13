@@ -25,7 +25,13 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
 
 Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberikan pengalaman pengguna yang interaktif dan informatif. Dengan memanfaatkan model machine learning, aplikasi ini tidak hanya menghitung BMI dan kebutuhan kalori, tetapi juga memberikan diagnosis awal untuk penyakit kulit berdasarkan gambar yang diunggah. Kolaborasi ini memungkinkan pengguna untuk mendapatkan informasi kesehatan yang lebih komprehensif dan akurat. 
 
-## Tahapan Pembuatan Model Machine Learning untuk Memp rediksi Penyakit Kulit
+## Arsitektur Aplikasi
+Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, dan memberikan informasi tentang penyakit kulit:
+- **BMICalculator**: Menghitung BMI berdasarkan berat dan tinggi badan.
+- **CalorieCalculator**: Menghitung kebutuhan kalori harian berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
+- **SkinDiseaseClassifier**: Memberikan informasi tentang penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
+
+## Tahapan Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
 
 1. **Pengumpulan Data**: Mengumpulkan dataset gambar penyakit kulit yang telah diberi label.
 2. **Preprocessing Data**: Melakukan preprocessing pada gambar, termasuk resizing, normalisasi, dan augmentasi untuk meningkatkan variasi data dan mengurangi overfitting.
@@ -39,12 +45,6 @@ Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberik
 ### Hasil Pelatihan Model
 Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik lainnya:
 ![Hasil Pelatihan Model](https://github.com/user-attachments/assets/76dff109-97d7-4e01-9608-962a7846100a)
-
-## Arsitektur Aplikasi
-Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, dan memberikan informasi tentang penyakit kulit:
-- **BMICalculator**: Menghitung BMI berdasarkan berat dan tinggi badan.
-- **CalorieCalculator**: Menghitung kebutuhan kalori harian berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
-- **SkinDiseaseClassifier**: Memberikan informasi tentang penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
 
 ## Evaluation
 Aplikasi ini memberikan hasil langsung kepada pengguna berdasarkan input yang diberikan. Hasil dari kalkulasi BMI dan kebutuhan kalori ditampilkan secara real-time, sementara informasi tentang penyakit kulit disediakan berdasarkan gambar yang diunggah. Aplikasi ini dirancang untuk memberikan informasi yang akurat dan relevan untuk membantu pengguna dalam pengelolaan kesehatan mereka.
