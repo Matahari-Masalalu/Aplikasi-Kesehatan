@@ -55,32 +55,32 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
 ### Langkah-langkah Penggunaan Aplikasi
 1. **Menu Home**: 
    - Di menu ini, Anda akan menemukan informasi mengenai aplikasi dan cara pengguna annya.
-   <img src="https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14" alt="Cuplikan layar Home" width="600"/>
+     <img src="https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14" alt="Cuplikan layar Home" width="800"/>
 
 2. **Menu Obesitas (Obesity)**: 
    - **Informasi tentang Obesitas**: Menyediakan penjelasan mengenai obesitas, faktor penyebab, dan dampaknya terhadap kesehatan.
-   <img src="https://github.com/user-attachments/assets/96ac94ae-5d71-4c5f-831a-7e6fab4a3195" alt="Cuplikan layar Obesitas" width="600"/>
+     <img src="https://github.com/user-attachments/assets/96ac94ae-5d71-4c5f-831a-7e6fab4a3195" alt="Cuplikan layar Obesitas" width="800"/>
    
    - **Kalkulator BMI**: Menghitung Indeks Massa Tubuh (BMI) Anda berdasarkan berat dan tinggi badan.
-   <img src="https://github.com/user-attachments/assets/3c411611-e5f7-476e-8949-a306ef693bc2" alt="Cuplikan layar Kalkulator BMI" width="600"/>
+     <img src="https://github.com/user-attachments/assets/3c411611-e5f7-476e-8949-a306ef693bc2" alt="Cuplikan layar Kalkulator BMI" width="800"/>
 
 3. **Menu Kebutuhan Kalori (Calories)**: 
    - **Informasi tentang Kebutuhan Kalori**: Menyediakan penjelasan mengenai pentingnya menghitung kebutuhan kalori harian.
-   <img src="https://github.com/user-attachments/assets/9bfdcd85-5ef9-44be-8dc0-7d4ec7942525" alt="Cuplikan layar Kebutuhan Kalori" width="600"/>
+     <img src="https://github.com/user-attachments/assets/9bfdcd85-5ef9-44be-8dc0-7d4ec7942525" alt="Cuplikan layar Kebutuhan Kalori" width="800"/>
    
    - **Kalkulator Kebutuhan Kalori**: Menghitung kebutuhan kalori harian Anda berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
-   <img src="https://github.com/user-attachments/assets/f33f5bb7-fcb6-44da-9d31-a337cfe644c8" alt="Cuplikan layar Kalkulator Kebutuhan Kalori" width="600"/>
+     <img src="https://github.com/user-attachments/assets/f33f5bb7-fcb6-44da-9d31-a337cfe644c8" alt="Cuplikan layar Kalkulator Kebutuhan Kalori" width="800"/>
 
 4. **Menu Penyakit Kulit (Skin)**: 
    - **Informasi tentang Penyakit Kulit**: Menyediakan penjelasan mengenai berbagai jenis penyakit kulit dan gejalanya.
-   <img src="https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7" alt="Cuplikan layar Penyakit Kulit" width="600"/>
+     <img src="https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7" alt="Cuplikan layar Penyakit Kulit" width="600"/>
    
    - **Prediksi Penyakit Kulit**: Menggunakan model machine learning untuk mendiagnosis penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
-   <img src="https://github.com/user-attachments/assets/3368948d-cb7e-481b-b521-2c6e9b78cf20" alt="Cuplikan layar Prediksi Penyakit Kulit" width="600"/>
+     <img src="https://github.com/user-attachments/assets/3368948d-cb7e-481b-b521-2c6e9b78cf20" alt="Cuplikan layar Prediksi Penyakit Kulit" width="800"/>
 
 5. **Menu Tentang Aplikasi (About)**: 
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
-   <img src="https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2" alt="Cuplikan layar Tentang Aplikasi" width="600"/>
+     <img src="https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2" alt="Cuplikan layar Tentang Aplikasi" width="800"/>
 
 ### Use Case Diagram
 <img src="https://github.com/user-attachments/assets/2bd46437-7216-48cd-9366-daf7d573ba74" alt="Use Case Diagram" width="600"/>
