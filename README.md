@@ -43,20 +43,25 @@ Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberik
 3. **Menu Kebutuhan Kalori**:
    - Di menu ini, terdapat dua opsi:
      - **Informasi tentang Kebutuhan Kalori**: Menyediakan penjelasan mengenai pentingnya menghitung kebutuhan kalori harian dan cara melakukannya.
-       - ![Screenshot Informasi Kebutuhan Kalori](link_to_screenshot_calorie_info)
+       - ![Cuplikan layar 2025-01-13 210029](https://github.com/user-attachments/assets/9bfdcd85-5ef9-44be-8dc0-7d4ec7942525)
+
      - **Kalkulator Kebutuhan Kalori**: Menghitung kebutuhan kalori harian Anda berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
-       - ![Screenshot Kalkulator Kebutuhan Kalori](link_to_screenshot_calorie_calculator)
+       - ![Cuplikan layar 2025-01-13 210150](https://github.com/user-attachments/assets/f33f5bb7-fcb6-44da-9d31-a337cfe644c8)
+
 
 4. **Menu Penyakit Kulit**:
    - Di menu ini, terdapat dua opsi:
      - **Informasi tentang Penyakit Kulit**: Menyediakan penjelasan mengenai berbagai jenis penyakit kulit dan gejalanya.
-       - ![Screenshot Informasi Penyakit Kulit](link_to_screenshot_skin_disease_info)
+       - ![Cuplikan layar 2025-01-13 210227](https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7)
+
      - **Prediksi Penyakit Kulit**: Menggunakan model machine learning untuk mendiagnosis penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
-       - ![Screenshot Prediksi Penyakit Kulit](link_to_screenshot_skin_disease_prediction)
+       - ![Cuplikan layar 2025-01-13 210313](https://github.com/user-attachments/assets/3368948d-cb7e-481b-b521-2c6e9b78cf20)
+
 
 5. **Menu Tentang Aplikasi**:
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
-   - ![Screenshot Tentang Aplikasi](link_to_screenshot_about_app)
+   - ![Cuplikan layar 2025-01-13 210350](https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2)
+
 
 ## Tahapan Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
 
