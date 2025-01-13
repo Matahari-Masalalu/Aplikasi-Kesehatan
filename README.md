@@ -23,7 +23,7 @@ Jika Anda menemukan aplikasi ini bermanfaat, suara positif akan sangat dihargai.
 ### Keterangan Aplikasi
 Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu pengguna dalam menghitung Indeks Massa Tubuh (BMI), kebutuhan kalori harian, dan memberikan informasi tentang penyakit kulit. Dengan meningkatnya kesadaran akan kesehatan, aplikasi ini diharapkan dapat memberikan informasi yang berguna bagi pengguna untuk menjaga kesehatan mereka. Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberikan pengalaman pengguna yang interaktif dan informatif.
 
-### A. Langkah-langkah Penggunaan Aplikasi
+### Langkah-langkah Penggunaan Aplikasi
 1. **Menu Home**: 
    - Di menu ini, Anda akan menemukan informasi mengenai aplikasi dan cara penggunaannya.
    ![Cuplikan layar Home](https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14)
@@ -50,7 +50,7 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
    ![Cuplikan layar Tentang Aplikasi ](https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2)
 
-### B. Use Case Diagram
+### Use Case Diagram
 ![Use Case Diagram](https://github.com/user-attachments/assets/180 50271-36ed-4cda-97e4-3840a18fc61f)
 
 #### Penjelasan dari Use Case Diagram:
@@ -116,7 +116,7 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
      - include:
        1. Relasi ke fitur Informasi tentang aplikasi dan creator.
 
-### C. Activity Diagram
+### Activity Diagram
 ![Activity Diagram](https://github.com/user-attachments/assets/e13d3552-53a4-4f87-9d4c-605cf2e47cde)
 
 #### Penjelasan Alur Aktivitas:
@@ -173,7 +173,7 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
    - **Proses:**
      - Aplikasi menampilkan informasi tentang aplikasi dan pembuatnya.
 
-### D. Class Diagram
+### Class Diagram
 ![Class Diagram](https://github.com/user-attachments/assets/85b475ec-ffab-412c-abde-bcd8b396d744)
 
 #### Deskripsi Umum Sistem
@@ -234,7 +234,7 @@ d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
 - **1..1**: Setiap pengguna (user) memiliki tepat satu hubungan dengan BMICalculator dan CalorieCalculator.
 - SkinDiseaseClassifier dapat memproses banyak gambar, tetapi tidak terkait langsung dengan User.
 
-### E. Deployment Diagram
+### Deployment Diagram
 ![Deployment Diagram](https://github.com/user-attachments/assets/359e04be-082d-4a89-942f-d61efe13ad67)
 
 #### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan tiga perangkat utama, yaitu Local Server, GitHub Repository, dan Web Server (Streamlit). Berikut adalah penjelasan tiap komponen:
