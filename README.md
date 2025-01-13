@@ -1,13 +1,13 @@
 # Laporan Proyek Kesehatan - Faishal Anwar Hasyim
 
 ## Tentang Penulis
-**Fasihal Anwar Hasyim**  
+- **Fasihal Anwar Hasyim**  
   NIM: 32602300021
 
-**Haydar Fahri Alaudin**  
+- **Haydar Fahri Alaudin**  
   NIM: 32602300010
 
-**Mumtaz Fikri Nasrullan**  
+- **Mumtaz Fikri Nasrullan**  
   NIM: 32602300002
 
 ## Akses Aplikasi
@@ -44,6 +44,32 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
 5. **Menu Tentang Aplikasi**:
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
 
+## Tahapan Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
+
+1. **Pengumpulan Data**:
+   - Mengumpulkan dataset gambar penyakit kulit yang telah diberi label. Dataset ini harus mencakup berbagai jenis penyakit kulit untuk meningkatkan akurasi model.
+
+2. **Preprocessing Data**:
+   - Melakukan preprocessing pada gambar, termasuk resizing, normalisasi, dan augmentasi untuk meningkatkan variasi data dan mengurangi overfitting.
+
+3. **Pembagian Data**:
+   - Membagi dataset menjadi set pelatihan dan set pengujian untuk melatih model dan menguji akurasinya.
+
+4. **Pemilihan Model**:
+   - Memilih arsitektur model yang sesuai, seperti Convolutional Neural Networks (CNN), yang efektif untuk pengenalan gambar.
+
+5. **Pelatihan Model**:
+   - Melatih model menggunakan data pelatihan dengan mengoptimalkan parameter model untuk meminimalkan loss function.
+
+6. **Evaluasi Model**:
+   - Menggunakan data pengujian untuk mengevaluasi performa model. Metrik yang digunakan dapat mencakup akurasi, precision, recall, dan F1-score.
+
+7. **Implementasi Model**:
+   - Mengimplementasikan model yang telah dilatih ke dalam aplikasi untuk memungkinkan pengguna mengunggah gambar dan mendapatkan prediksi.
+
+8. **Pengujian dan Validasi**:
+   - Melakukan pengujian lebih lanjut untuk memastikan model memberikan hasil yang akurat dan dapat diandalkan dalam situasi nyata.
+
 ## Modeling
 Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, dan memberikan informasi tentang penyakit kulit:
 
@@ -58,4 +84,4 @@ Aplikasi ini memberikan hasil langsung kepada pengguna berdasarkan input yang di
 Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang memungkinkan pembuatan aplikasi web interaktif dengan cepat. Streamlit memudahkan pengembang untuk membuat antarmuka pengguna yang intuitif dan responsif, sehingga pengguna dapat dengan mudah mengakses fitur-fitur yang disediakan.
 
 ## Kesimpulan
-Aplikasi ini dirancang untuk membantu pengguna memahami dan mengelola kesehatan mereka dengan lebih baik. Dengan fitur-fitur seperti kalkulator BMI, kalkulator kebutuhan kalori, dan informasi tentang penyakit kulit, pengguna dapat membuat keputusan yang lebih baik terkait kesehatan mereka.
+Aplikasi ini dirancang untuk membantu pengguna memahami dan mengelola kesehatan mereka dengan lebih baik. Dengan fitur-fitur seperti kalkulator BMI, kalkulator kebutuhan kalori, dan informasi tentang penyakit kulit, pengguna dapat membuat keputusan yang lebih baik terkait kesehatan mereka. Selain itu, dengan adanya model machine learning untuk memprediksi penyakit kulit, aplikasi ini memberikan nilai tambah yang signifikan dalam mendukung pengguna dalam menjaga kesehatan kulit mereka.
