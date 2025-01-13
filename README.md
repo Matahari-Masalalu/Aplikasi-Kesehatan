@@ -21,7 +21,37 @@ Jika Anda menemukan aplikasi ini bermanfaat, suara positif akan sangat dihargai.
 ## Aplikasi Cek Obesitas dan Kesehatan
 
 ### Keterangan Aplikasi
-Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu pengguna dalam menghitung Indeks Massa Tubuh (BMI), kebutuhan kalori harian, dan memberikan informasi tentang penyakit kulit. Dengan meningkatnya kesadaran akan kesehatan, aplikasi ini diharapkan dapat memberikan informasi yang berguna bagi pengguna untuk menjaga kesehatan mereka. Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberikan pengalaman pengguna yang interaktif dan informatif.
+Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu pengguna dalam menghitung Indeks Massa Tubuh (BMI), kebutuhan kalori harian, dan memberikan informasi tentang penyakit kulit. Dengan meningkatnya kesadaran akan kesehatan, aplikasi ini diharapkan dapat memberikan informasi yang berguna bagi pengguna untuk menjaga kesehatan mereka. 
+
+Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberikan pengalaman pengguna yang interaktif dan informatif. Dengan memanfaatkan model machine learning, aplikasi ini tidak hanya menghitung BMI dan kebutuhan kalori, tetapi juga memberikan diagnosis awal untuk penyakit kulit berdasarkan gambar yang diunggah. Kolaborasi ini memungkinkan pengguna untuk mendapatkan informasi kesehatan yang lebih komprehensif dan akurat. 
+
+## Tahapan Pembuatan Model Machine Learning untuk Memp rediksi Penyakit Kulit
+
+1. **Pengumpulan Data**: Mengumpulkan dataset gambar penyakit kulit yang telah diberi label.
+2. **Preprocessing Data**: Melakukan preprocessing pada gambar, termasuk resizing, normalisasi, dan augmentasi untuk meningkatkan variasi data dan mengurangi overfitting.
+3. **Pembagian Data**: Membagi dataset menjadi set pelatihan dan set pengujian untuk melatih model dan menguji akurasinya.
+4. **Pemilihan Model**: Memilih arsitektur model yang sesuai, seperti Convolutional Neural Networks (CNN), yang efektif untuk pengenalan gambar.
+5. **Pelatihan Model**: Melatih model menggunakan data pelatihan dengan mengoptimalkan parameter model untuk meminimalkan loss function.
+6. **Evaluasi Model**: Menggunakan data pengujian untuk mengevaluasi performa model. Metrik yang digunakan dapat mencakup akurasi, precision, recall, dan F1-score.
+7. **Implementasi Model**: Mengimplementasikan model yang telah dilatih ke dalam aplikasi untuk memungkinkan pengguna mengunggah gambar dan mendapatkan prediksi.
+8. **Pengujian dan Validasi**: Melakukan pengujian lebih lanjut untuk memastikan model memberikan hasil yang akurat dan dapat diandalkan dalam situasi nyata.
+
+### Hasil Pelatihan Model
+Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik lainnya:
+![Hasil Pelatihan Model](https://github.com/user-attachments/assets/76dff109-97d7-4e01-9608-962a7846100a)
+
+## Arsitektur Aplikasi
+Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, dan memberikan informasi tentang penyakit kulit:
+- **BMICalculator**: Menghitung BMI berdasarkan berat dan tinggi badan.
+- **CalorieCalculator**: Menghitung kebutuhan kalori harian berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
+- **SkinDiseaseClassifier**: Memberikan informasi tentang penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
+
+## Evaluation
+Aplikasi ini memberikan hasil langsung kepada pengguna berdasarkan input yang diberikan. Hasil dari kalkulasi BMI dan kebutuhan kalori ditampilkan secara real-time, sementara informasi tentang penyakit kulit disediakan berdasarkan gambar yang diunggah. Aplikasi ini dirancang untuk memberikan informasi yang akurat dan relevan untuk membantu pengguna dalam pengelolaan kesehatan mereka.
+
+## Pembuatan Aplikasi
+Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang memungkinkan pembuatan aplikasi web interaktif dengan cepat. Streamlit memudahkan pengembang untuk membuat antarmuka pengguna yang intuitif dan responsif, sehingga pengguna dapat dengan mudah mengakses fitur-fitur yang disediakan.
+
 
 ### Langkah-langkah Penggunaan Aplikasi
 1. **Menu Home**: 
