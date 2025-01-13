@@ -21,12 +21,9 @@ Jika Anda menemukan aplikasi ini bermanfaat, suara positif akan sangat dihargai.
 ## Aplikasi Kesehatan
 
 ### Domain Proyek
-Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu pengguna dalam:
-- Menghitung Indeks Massa Tubuh (BMI)
-- Menghitung kebutuhan kalori harian
-- Memberikan informasi tentang penyakit kulit
+Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu pengguna dalam menghitung Indeks Massa Tubuh (BMI), kebutuhan kalori harian, dan memberikan informasi tentang penyakit kulit. Dengan meningkatnya kesadaran akan kesehatan, aplikasi ini diharapkan dapat memberikan informasi yang berguna bagi pengguna untuk menjaga kesehatan mereka.
 
-Dengan meningkatnya kesadaran akan kesehatan, aplikasi ini diharapkan dapat memberikan informasi yang berguna bagi pengguna untuk menjaga kesehatan mereka. Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberikan pengalaman pengguna yang interaktif dan informatif.
+Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberikan pengalaman pengguna yang interaktif dan informatif. Dengan memanfaatkan model machine learning, aplikasi ini tidak hanya menghitung BMI dan kebutuhan kalori, tetapi juga memberikan diagnosis awal untuk penyakit kulit berdasarkan gambar yang diunggah. Kolaborasi ini memungkinkan pengguna untuk mendapatkan informasi kesehatan yang lebih komprehensif dan akurat.
 
 ### Fitur Utama
 - **Kalkulator BMI**: Menghitung status obesitas pengguna.
