@@ -85,6 +85,7 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
 ### Use Case Diagram
 <img src="https://github.com/user-attachments/assets/2bd46437-7216-48cd-9366-daf7d573ba74" alt="Use Case Diagram" width="600"/>
 
+
 #### Penjelasan dari Use Case Diagram:
 1. **Home Menu**
    - **Fungsi Utama:**
