@@ -51,81 +51,73 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
    ![Cuplikan layar Tentang Aplikasi ](https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2)
 
 ### B. Use Case Diagram
-![1](https://github.com/user-attachments/assets/18050271-36ed-4cda-97e4-3840a18fc61f)
+![Use Case Diagram](https://github.com/user-attachments/assets/180 50271-36ed-4cda-97e4-3840a18fc61f)
 
 #### Penjelasan dari Use Case Diagram:
 1. **Home Menu**
- - **Fungsi Utama:**
-  - Memberikan informasi umum tentang kesehatan dan sistem dari aplikasi.
-  - Mengarahkan pengguna ke media sosial creator.
-
-- **Relasi:**
-  - Terdapat relasi include untuk memberikan informasi umum tentang kesehatan dan sistem dari aplikasi.
-  - Terdapat relasi extend untuk mengarahkan pengguna ke media sosial creator.
+   - **Fungsi Utama:**
+     - Memberikan informasi umum tentang kesehatan dan sistem dari aplikasi.
+     - Mengarahkan pengguna ke media sosial creator.
+   - **Relasi:**
+     - Terdapat relasi include untuk memberikan informasi umum tentang kesehatan dan sistem dari aplikasi.
+     - Terdapat relasi extend untuk mengarahkan pengguna ke media sosial creator.
 
 2. **Obesity Menu**
-- **Fungsi Utama:**
-  - Memberikan informasi tentang obesitas.
-  - Menyediakan kalkulator BMI/obesity calculator.
-
-- **Proses:**
-  - Pengguna memasukkan:
-    1. Umur (dalam tahun),
-    2. Berat badan (kg),
-    3. Tinggi badan (cm),
-    4. Jenis kelamin.
-  - Sistem memvalidasi nilai yang dimasukkan.
-  - Hasil berupa nilai BMI dan rekomendasi berdasarkan kondisi pengguna.
-
-- **Relasi:**
-  - include:
-    1. Relasi ke fitur Informasi tentang obesitas.
-    2. Relasi ke BMI Calculator / Obesity Calculator, yang merupakan bagian utama dari menu ini.
+   - **Fungsi Utama:**
+     - Memberikan informasi tentang obesitas.
+     - Menyediakan kalkulator BMI/obesity calculator.
+   - **Proses:**
+     - Pengguna memasukkan:
+       1. Umur (dalam tahun),
+       2. Berat badan (kg),
+       3. Tinggi badan (cm),
+       4. Jenis kelamin.
+     - Sistem memvalidasi nilai yang dimasukkan.
+     - Hasil berupa nilai BMI dan rekomendasi berdasarkan kondisi pengguna.
+   - **Relasi:**
+     - include:
+       1. Relasi ke fitur Informasi tentang obesitas.
+       2. Relasi ke BMI Calculator / Obesity Calculator, yang merupakan bagian utama dari menu ini.
 
 3. **Calories Menu**
-- **Fungsi Utama:**
-  - Memberikan informasi tentang kebutuhan kalori.
-  - Menyediakan kalkulator kebutuhan kalori harian.
-
-- **Proses:**
-  - Pengguna memasukkan:
-    1. Umur (dalam tahun),
-    2. Berat badan (kg),
-    3. Tinggi badan (cm),
-    4. Jenis kelamin,
-    5. Tingkat aktivitas.
-  - Sistem memvalidasi nilai yang dimasukkan.
-  - Hasil berupa kebutuhan kalori harian berdasarkan data yang diberikan.
-
-- **Relasi:**
-  - include:
-    1. Relasi ke fitur Informasi tentang kebutuhan kalori.
-    2. Relasi ke Kalkulator kebutuhan kalori harian, yang merupakan bagian inti dari menu ini.
+   - **Fungsi Utama:**
+     - Memberikan informasi tentang kebutuhan kalori.
+     - Menyediakan kalkulator kebutuhan kalori harian.
+   - **Proses:**
+     - Pengguna memasukkan:
+       1. Umur (dalam tahun),
+       2. Berat badan (kg),
+       3. Tinggi badan (cm),
+       4. Jenis kelamin,
+       5. Tingkat aktivitas.
+     - Sistem memvalidasi nilai yang dimasukkan.
+     - Hasil berupa kebutuhan kalori harian berdasarkan data yang diberikan.
+   - **Relasi:**
+     - include:
+       1. Relasi ke fitur Informasi tentang kebutuhan kalori.
+       2. Relasi ke Kalkulator kebutuhan kalori harian, yang merupakan bagian inti dari menu ini.
 
 4. **Skin Menu**
-- **Fungsi Utama:**
-  - Memberikan informasi tentang penyakit kulit.
-  - Menyediakan fitur prediksi penyakit kulit melalui gambar.
-
-- **Proses:**
-  - Pengguna mengunggah gambar kulit mereka.
-  - Sistem memproses gambar dan memberikan hasil prediksi penyakit kulit.
-
-- **Relasi:**
-  - include:
-    1. Relasi ke fitur Informasi tentang penyakit kulit.
-    2. Relasi ke Prediksi penyakit kulit melalui gambar sebagai bagian utama menu ini.
+   - **Fungsi Utama:**
+     - Memberikan informasi tentang penyakit kulit.
+     - Menyediakan fitur prediksi penyakit kulit melalui gambar.
+   - **Proses:**
+     - Pengguna mengunggah gambar kulit mereka.
+     - Sistem memproses gambar dan memberikan hasil prediksi penyakit kulit.
+   - **Relasi:**
+     - include:
+       1. Relasi ke fitur Informasi tentang penyakit kulit.
+       2. Relasi ke Prediksi penyakit kulit melalui gambar sebagai bagian utama menu ini.
 
 5. **About Menu**
-- **Fungsi Utama:**
-  - Memberikan informasi tentang aplikasi dan pembuatnya.
-
-- **Relasi:**
-  - include:
-    1. Relasi ke fitur Informasi tentang aplikasi dan creator.
+   - **Fungsi Utama:**
+     - Memberikan informasi tentang aplikasi dan pembuatnya.
+   - **Relasi:**
+     - include:
+       1. Relasi ke fitur Informasi tentang aplikasi dan creator.
 
 ### C. Activity Diagram
-![2](https://github.com/user-attachments/assets/e13d3552-53a4-4f87-9d4c-605cf2e47cde)
+![Activity Diagram](https://github.com/user-attachments/assets/e13d3552-53a4-4f87-9d4c-605cf2e47cde)
 
 #### Penjelasan Alur Aktivitas:
 1. **Masuk ke Home Menu:**
@@ -182,7 +174,7 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
      - Aplikasi menampilkan informasi tentang aplikasi dan pembuatnya.
 
 ### D. Class Diagram
-![3](https://github.com/user-attachments/assets/85b475ec-ffab-412c-abde-bcd8b396d744)
+![Class Diagram](https://github.com/user-attachments/assets/85b475ec-ffab-412c-abde-bcd8b396d744)
 
 #### Deskripsi Umum Sistem
 Class diagram yang dibuat menggambarkan hubungan antara berbagai kelas dalam sistem, yaitu **BMICalculator**, **CalorieCalculator**, **SkinDiseaseClassifier**, dan **User **. Diagram ini menunjukkan struktur statis dari sistem, termasuk atribut, metode, dan relasi antar kelas. Sistem ini dirancang untuk:
@@ -243,31 +235,6 @@ d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
 - SkinDiseaseClassifier dapat memproses banyak gambar, tetapi tidak terkait langsung dengan User.
 
 ### E. Deployment Diagram
-![4](https://github.com/user-attachments/assets/359e04be-082d-4a89-942f-d61efe13ad67)
+![Deployment Diagram](https://github.com/user-attachments/assets/359e04be-082d-4a89-942f-d61efe13ad67)
 
-#### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan tiga perangkat utama, yaitu Local Server, GitHub Repository, dan Web Server (Streamlit). Berikut adalah penjelasan tiap komponen:
-1. **Local Server**
-   - **Browser / Client**: Digunakan oleh pengguna untuk mengakses aplikasi melalui antarmuka web.
-   - **Interact (HTTP/HTTPS)**: Interaksi antara klien dan server menggunakan protokol HTTP atau HTTPS, memastikan komunikasi aman.
-
-2. **Web Server (Streamlit)**
-   - **Streamlit App**: Aplikasi berbasis Streamlit yang bertanggung jawab menampilkan antarmuka aplikasi kepada pengguna.
-   - **Backend Logic (Python)**: Logika backend yang menjalankan fungsi utama aplikasi, seperti menjalankan model machine learning atau pengolahan data.
-   - ** UI / UX**: Elemen antarmuka pengguna (User  Interface/User Experience) untuk berinteraksi dengan aplikasi secara visual.
-   - **Accesses GitHub**: Menghubungkan server ke GitHub Repository untuk mengambil kode sumber, model, atau dataset yang diperlukan.
-
-3. **GitHub Repository**
-   - **Data Files**: Menyimpan berbagai file yang diperlukan, seperti file Python (.py), file gambar (.jpg), file teks (.txt), file model (.tflite), dan file Python bytecode (.pyc).
-   - **Scripts: Python Logic**: Kumpulan kode logika program yang ditulis menggunakan Python.
-   - **Source Code & Dataset**: Kode sumber aplikasi serta dataset yang digunakan.
-   - **Requirements**: File berisi daftar dependensi yang diperlukan untuk menjalankan aplikasi (contoh: requirements.txt).
-   - **Model**: Model pembelajaran mesin (machine learning) yang digunakan dalam aplikasi.
-
-4. **Alur Kerja**
-   1. Local Server melalui browser mengirimkan permintaan ke Web Server menggunakan protokol HTTP/HTTPS.
-   2. Web Server yang menjalankan aplikasi Streamlit menerima permintaan tersebut.
-   3. Jika diperlukan, Web Server akan mengakses file atau model dari GitHub Repository.
-   4. Aplikasi di Web Server memproses data, menjalankan model, dan menampilkan hasil melalui antarmuka Streamlit ke browser klien.
-
-## Kesimpulan
-Aplikasi ini dirancang untuk membantu pengguna memahami dan mengelola kesehatan mereka dengan lebih baik. Dengan fitur-fitur seperti kalkulator BMI, kalkulator kebutuhan kalori, dan informasi tentang penyakit kulit, pengguna dapat membuat keputusan yang lebih baik terkait kesehatan mereka. Selain itu, dengan adanya model machine learning untuk memprediksi penyakit kulit, aplikasi ini memberikan nilai tambah yang signifikan dalam mendukung pengguna dalam menjaga kesehatan kulit mereka.
+#### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan
