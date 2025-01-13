@@ -51,6 +51,8 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
    ![Cuplikan layar Tentang Aplikasi ](https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2)
 
 ### B. Use Case Diagram
+![1](https://github.com/user-attachments/assets/18050271-36ed-4cda-97e4-3840a18fc61f)
+
 #### Penjelasan dari Use Case Diagram:
 1. **Home Menu**
  - **Fungsi Utama:**
@@ -123,6 +125,8 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
     1. Relasi ke fitur Informasi tentang aplikasi dan creator.
 
 ### C. Activity Diagram
+![2](https://github.com/user-attachments/assets/e13d3552-53a4-4f87-9d4c-605cf2e47cde)
+
 #### Penjelasan Alur Aktivitas:
 1. **Masuk ke Home Menu:**
    - **Aktivitas Awal:**
@@ -178,6 +182,8 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
      - Aplikasi menampilkan informasi tentang aplikasi dan pembuatnya.
 
 ### D. Class Diagram
+![3](https://github.com/user-attachments/assets/85b475ec-ffab-412c-abde-bcd8b396d744)
+
 #### Deskripsi Umum Sistem
 Class diagram yang dibuat menggambarkan hubungan antara berbagai kelas dalam sistem, yaitu **BMICalculator**, **CalorieCalculator**, **SkinDiseaseClassifier**, dan **User **. Diagram ini menunjukkan struktur statis dari sistem, termasuk atribut, metode, dan relasi antar kelas. Sistem ini dirancang untuk:
 - Menghitung BMI dan memberikan kategori kesehatan.
@@ -237,6 +243,8 @@ d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
 - SkinDiseaseClassifier dapat memproses banyak gambar, tetapi tidak terkait langsung dengan User.
 
 ### E. Deployment Diagram
+![4](https://github.com/user-attachments/assets/359e04be-082d-4a89-942f-d61efe13ad67)
+
 #### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan tiga perangkat utama, yaitu Local Server, GitHub Repository, dan Web Server (Streamlit). Berikut adalah penjelasan tiap komponen:
 1. **Local Server**
    - **Browser / Client**: Digunakan oleh pengguna untuk mengakses aplikasi melalui antarmuka web.
