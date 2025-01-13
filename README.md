@@ -61,16 +61,19 @@ Proyek ini mengintegrasikan teknologi web dengan machine learning untuk memberik
 ## Tahapan Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
 
 1. **Pengumpulan Data**: Mengumpulkan dataset gambar penyakit kulit yang telah diberi label.
-2. **Preprocessing Data**: Melakukan preprocessing pada gambar, termasuk resizing, normalisasi, dan augmentasi untuk meningkatkan variasi data dan mengurangi overfitting.
+2. **Preprocessing Data**: Melakukan preprocessing pada gambar, termasuk resizing dan normalisasi untuk meningkatkan kualitas data dan mengurangi overfitting. (Catatan: Tahap augmentasi tidak dilakukan dalam proyek ini.)
 3. **Pembagian Data**: Membagi dataset menjadi set pelatihan dan set pengujian untuk melatih model dan menguji akurasinya.
 4. **Pemilihan Model**: Memilih arsitektur model yang sesuai, seperti Convolutional Neural Networks (CNN), yang efektif untuk pengenalan gambar.
 5. **Pelatihan Model**: Melatih model menggunakan data pelatihan dengan mengoptimalkan parameter model untuk meminimalkan loss function.
 6. **Evaluasi Model**: Menggunakan data pengujian untuk mengevaluasi performa model. Metrik yang digunakan dapat mencakup akurasi, precision, recall, dan F1-score.
 7. **Implementasi Model**: Mengimplementasikan model yang telah dilatih ke dalam aplikasi untuk memungkinkan pengguna mengunggah gambar dan mendapatkan prediksi.
 8. **Pengujian dan Validasi**: Melakukan pengujian lebih lanjut untuk memastikan model memberikan hasil yang akurat dan dapat diandalkan dalam situasi nyata.
-9. 
 
-## Modeling
+### Hasil Pelatihan Model
+Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik lainnya:
+![Hasil Pelatihan Model](https://github.com/user-attachments/assets/76dff109-97d7-4e01-9608-962a7846100a)
+
+## Arsitektur Aplikasi
 Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, dan memberikan informasi tentang penyakit kulit:
 - **BMICalculator**: Menghitung BMI berdasarkan berat dan tinggi badan.
 - **CalorieCalculator**: Menghitung kebutuhan kalori harian berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
