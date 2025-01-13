@@ -25,24 +25,32 @@ Proyek ini bertujuan untuk membangun aplikasi kesehatan yang dapat membantu peng
 
 1. **Menu Home**:
    - Di menu ini, Anda akan menemukan informasi mengenai aplikasi dan cara penggunaannya. Ini adalah titik awal untuk memahami fitur-fitur yang tersedia.
+   - ![Screenshot Menu Home](link_to_screenshot_home)
 
 2. **Menu Obesitas**:
    - Di menu ini, terdapat dua opsi:
      - **Informasi tentang Obesitas**: Menyediakan penjelasan mengenai obesitas, faktor penyebab, dan dampaknya terhadap kesehatan.
+       - ![Screenshot Informasi Obesitas](link_to_screenshot_obesity_info)
      - **Kalkulator BMI**: Menghitung Indeks Massa Tubuh (BMI) Anda berdasarkan berat dan tinggi badan untuk mengecek status obesitas.
+       - ![Screenshot Kalkulator BMI](link_to_screenshot_bmi_calculator)
 
 3. **Menu Kebutuhan Kalori**:
    - Di menu ini, terdapat dua opsi:
      - **Informasi tentang Kebutuhan Kalori**: Menyediakan penjelasan mengenai pentingnya menghitung kebutuhan kalori harian dan cara melakukannya.
+       - ![Screenshot Informasi Kebutuhan Kalori](link_to_screenshot_calorie_info)
      - **Kalkulator Kebutuhan Kalori**: Menghitung kebutuhan kalori harian Anda berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
+       - ![Screenshot Kalkulator Kebutuhan Kalori](link_to_screenshot_calorie_calculator)
 
 4. **Menu Penyakit Kulit**:
    - Di menu ini, terdapat dua opsi:
      - **Informasi tentang Penyakit Kulit**: Menyediakan penjelasan mengenai berbagai jenis penyakit kulit dan gejalanya.
+       - ![Screenshot Informasi Penyakit Kulit](link_to_screenshot_skin_disease_info)
      - **Prediksi Penyakit Kulit**: Menggunakan model machine learning untuk mendiagnosis penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
+       - ![Screenshot Prediksi Penyakit Kulit](link_to_screenshot_skin_disease_prediction)
 
 5. **Menu Tentang Aplikasi**:
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
+   - ![Screenshot Tentang Aplikasi](link_to_screenshot_about_app)
 
 ## Tahapan Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
 
