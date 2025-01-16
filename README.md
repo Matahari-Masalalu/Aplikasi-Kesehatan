@@ -76,7 +76,7 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
      <img src="https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7" alt="Cuplikan layar Penyakit Kulit" width="600"/>
    
    - **Prediksi Penyakit Kulit**: Menggunakan model machine learning untuk mendiagnosis penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
-     <img src="https://github.com/user-attachments/assets/3368948d-cb7e-481b-b521-2c6e9b78cf20" alt="Cuplikan layar Prediksi Penyakit Kulit" width="800"/>
+     <img src="https://github.com/user-attachments/assets/257b096b-3b79-4dc9-bca4-052d0a781c6c" alt="Cuplikan layar Prediksi Penyakit Kulit" width="800"/>
 
 5. **Menu Tentang Aplikasi (About)**: 
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
