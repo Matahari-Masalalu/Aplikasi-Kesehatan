@@ -66,6 +66,7 @@ Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik la
      <img src="https://github.com/user-attachments/assets/9bfdcd85-5ef9-44be-8dc0-7d4ec7942525" alt="Cuplikan layar Kebutuhan Kalori" width="800"/>
    
    - **Kalkulator Kebutuhan Kalori**: Menghitung kebutuhan kalori harian Anda berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
+     
      <img src="https://github.com/user-attachments/assets/f33f5bb7-fcb6-44da-9d31-a337cfe644c8" alt="Cuplikan layar Kalkulator Kebutuhan Kalori" width="800"/>
 
 ### 4. **Menu Penyakit Kulit (Skin)**: ###
