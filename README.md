@@ -31,6 +31,9 @@ Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, 
 - **CalorieCalculator**: Menghitung kebutuhan kalori harian berdasarkan berat, tinggi, umur, jenis kelamin, dan tingkat aktivitas.
 - **SkinDiseaseClassifier**: Memberikan informasi tentang penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
 
+## Pembuatan Aplikasi
+Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang memungkinkan pembuatan aplikasi web interaktif dengan cepat. Streamlit memudahkan pengembang untuk membuat antarmuka pengguna yang intuitif dan responsif, sehingga pengguna dapat dengan mudah mengakses fitur-fitur yang disediakan.
+
 ## Tahapan Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
 
 1. **Pengumpulan Data**: Mengumpulkan dataset gambar penyakit kulit yang telah diberi label.
@@ -45,12 +48,6 @@ Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, 
 ### Hasil Pelatihan Model
 Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik lainnya:
 <img src="https://github.com/user-attachments/assets/76dff109-97d7-4e01-9608-962a7846100a" alt="Hasil Pelatihan Model" width="600"/>
-
-## Evaluation
-Aplikasi ini memberikan hasil langsung kepada pengguna berdasarkan input yang diberikan. Hasil dari kalkulasi BMI dan kebutuhan kalori ditampilkan secara real-time, sementara informasi tentang penyakit kulit disediakan berdasarkan gambar yang diunggah. Aplikasi ini dirancang untuk memberikan informasi yang akurat dan relevan untuk membantu pengguna dalam pengelolaan kesehatan mereka.
-
-## Pembuatan Aplikasi
-Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang memungkinkan pembuatan aplikasi web interaktif dengan cepat. Streamlit memudahkan pengembang untuk membuat antarmuka pengguna yang intuitif dan responsif, sehingga pengguna dapat dengan mudah mengakses fitur-fitur yang disediakan.
 
 ### Langkah-langkah Penggunaan Aplikasi
 1. **Menu Home**: 
