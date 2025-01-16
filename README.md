@@ -71,6 +71,7 @@ Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik la
 
 ### 4. **Menu Penyakit Kulit (Skin)**: ###
    - **Informasi tentang Penyakit Kulit**: Menyediakan penjelasan mengenai berbagai jenis penyakit kulit dan gejalanya.
+     
      <img src="https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7" alt="Cuplikan layar Penyakit Kulit" width="600"/>
    
    - **Prediksi Penyakit Kulit**: Menggunakan model machine learning untuk mendiagnosis penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
