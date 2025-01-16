@@ -294,6 +294,41 @@ d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
    2. Web Server yang menjalankan aplikasi Streamlit menerima permintaan tersebut.
    3. Jika diperlukan, Web Server akan mengakses file atau model dari GitHub Repository.
    4. Aplikasi di Web Server memproses data, menjalankan model, dan menampilkan hasil melalui antarmuka Streamlit ke browser klien.
+      
+
+## Sequence diagram 
+<img src="https://github.com/user-attachments/assets/e38591e5-3e91-48d9-982c-9d234c04f446" alt="Sequence Diagram" width="600"/>
+
+### Sequence diagram pada gambar ini menggambarkan alur interaksi antara User, Application, dan Validasi dalam sebuah sistem kesehatan yang mencakup fitur perhitungan BMI, kebutuhan kalori, prediksi penyakit kulit, serta informasi umum aplikasi. Berikut penjelasan tiap bagian:
+
+1. **User Masuk ke Home**
+   - **User mengakses aplikasi.
+   - **Aplikasi menampilkan informasi umum tentang kesehatan dan aplikasi.
+   - **Aplikasi juga memberikan informasi tentang pembuat aplikasi (media creator).
+
+
+2. **User Memilih Menu Obesity**
+   - Aplikasi menampilkan informasi tentang obesitas.
+   - User dapat mengakses calculator BMIA dan memasukkan data seperti tinggi, berat badan, umur, dan jenis kelamin.
+   - Data yang dimasukkan akan divalidasi oleh Validasi.
+   - Setelah validasi selesai, aplikasi menampilkan hasil perhitungan BMI serta rekomendasi untuk pengguna.
+     
+3. **User Memilih Menu Calories**
+   - Aplikasi menampilkan informasi tentang calories..
+   - User dapat mengakses calculator calories dan memasukkan data seperti tinggi, berat badan, umur, jenis kelamin, dan aktivitas harian.
+   - Data ini kemudian divalidasi oleh Validasi.
+   - Setelah validasi, aplikasi menampilkan hasil perhitungan kebutuhan kalori dan rekomendasi untuk pengguna.
+
+4. **User Memilih Menu Skin**
+   - Aplikasi menampilkan informasi tentang penyakit kulit.
+   - User dapat menggunakan fitur prediksi penyakit kulit berdasarkan klasifikasi gambar.
+   - User memasukkan gambar penyakit kulit yang diderita.
+   - Gambar tersebut divalidasi oleh Validasi.
+   - Setelah validasi, aplikasi menampilkan prediksi penyakit kulit yang diderita.
+   - 
+5. **User Memilih Menu About**
+   - Aplikasi menampilkan informasi tentang aplikasi dan pembuatnya.
+
 
 ## Kesimpulan
 Aplikasi ini dirancang untuk membantu pengguna memahami dan mengelola kesehatan mereka dengan lebih baik. Dengan fitur-fitur seperti kalkulator BMI, kalkulator kebutuhan kalori, dan informasi tentang penyakit kulit, pengguna dapat membuat keputusan yang lebih baik terkait kesehatan mereka. Selain itu, dengan adanya model machine learning untuk memprediksi penyakit kulit, aplikasi ini memberikan nilai tambah yang signifikan dalam mendukung pengguna dalam menjaga kesehatan kulit mereka.
