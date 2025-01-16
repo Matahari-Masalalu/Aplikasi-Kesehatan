@@ -1,4 +1,4 @@
-# Laporan Proyek Kesehatan
+# Laporan Proyek Aplikasi Kesehatan
 
 ## Tentang Penulis
 Proyek ini dibuat sebagai tugas untuk mata kuliah **Pemrograman Berorientasi Objek**.
