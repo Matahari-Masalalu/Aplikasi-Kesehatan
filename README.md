@@ -52,7 +52,7 @@ Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik la
 ## Langkah-langkah Penggunaan Aplikasi
 ### 1. **Menu Home**: ###
    - Di menu ini, Anda akan menemukan informasi mengenai aplikasi dan cara pengguna annya.
-     <img src="https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14" alt="Cuplikan layar Home" width="800"/>
+     <img src="https://github.com/user-attachments/assets/50de1b2f-9478-44c5-8946-b053be85ec95" alt="Cuplikan layar Home" width="800"/>
 
 ### 2. **Menu Obesitas (Obesity)**: ###
    - **Informasi tentang Obesitas**: Menyediakan penjelasan mengenai obesitas, faktor penyebab, dan dampaknya terhadap kesehatan.
