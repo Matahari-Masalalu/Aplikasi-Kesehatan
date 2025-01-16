@@ -74,6 +74,7 @@ Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik la
      <img src="https://github.com/user-attachments/assets/cadd58a6-1588-4b27-8f19-f52e844a0be7" alt="Cuplikan layar Penyakit Kulit" width="600"/>
    
    - **Prediksi Penyakit Kulit**: Menggunakan model machine learning untuk mendiagnosis penyakit kulit berdasarkan gambar yang diunggah oleh pengguna.
+     
      <img src="https://github.com/user-attachments/assets/257b096b-3b79-4dc9-bca4-052d0a781c6c" alt="Cuplikan layar Prediksi Penyakit Kulit" width="800"/>
 
 ### 5. **Menu Tentang Aplikasi (About)**: ###
