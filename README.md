@@ -297,3 +297,8 @@ d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
 
 ## Kesimpulan
 Aplikasi ini dirancang untuk membantu pengguna memahami dan mengelola kesehatan mereka dengan lebih baik. Dengan fitur-fitur seperti kalkulator BMI, kalkulator kebutuhan kalori, dan informasi tentang penyakit kulit, pengguna dapat membuat keputusan yang lebih baik terkait kesehatan mereka. Selain itu, dengan adanya model machine learning untuk memprediksi penyakit kulit, aplikasi ini memberikan nilai tambah yang signifikan dalam mendukung pengguna dalam menjaga kesehatan kulit mereka.
+
+## Referensi
+1. Riya Eliza Shaju - Kaggle. Diakses pada 2 Januari 2025 dari https://www.kaggle.com/datasets/riyaelizashaju/skin-disease-classification-image-dataset
+2. Firefly55lm - Kaggle. Diakses pada 2 Januari 2025 dari https://www.kaggle.com/code/firefly55lm/skin-diseases-cnn-classification
+3. alanhrmwn - Github. Diakses pada 3 Januari 2025 dari https://github.com/alanhrmwn/obesity-prediction
