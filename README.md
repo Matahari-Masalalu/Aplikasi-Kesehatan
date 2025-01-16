@@ -49,7 +49,7 @@ Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang me
 Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik lainnya:
 <img src="https://github.com/user-attachments/assets/76dff109-97d7-4e01-9608-962a7846100a" alt="Hasil Pelatihan Model" width="600"/>
 
-### Langkah-langkah Penggunaan Aplikasi
+## Langkah-langkah Penggunaan Aplikasi
 1. **Menu Home**: 
    - Di menu ini, Anda akan menemukan informasi mengenai aplikasi dan cara pengguna annya.
      <img src="https://github.com/user-attachments/assets/032fb36e-df65-4a19-97f2-604a43128b14" alt="Cuplikan layar Home" width="800"/>
@@ -79,11 +79,11 @@ Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik la
    - Di menu ini, Anda akan menemukan informasi tentang pembuat aplikasi dan penjelasan singkat mengenai aplikasi itu sendiri.
      <img src="https://github.com/user-attachments/assets/128a119c-d9ee-42b0-833d-3e10876db0d2" alt="Cuplikan layar Tentang Aplikasi" width="800"/>
 
-### Use Case Diagram
+## Use Case Diagram
 <img src="https://github.com/user-attachments/assets/2bd46437-7216-48cd-9366-daf7d573ba74" alt="Use Case Diagram" width="600"/>
 
 
-#### Penjelasan dari Use Case Diagram:
+### Penjelasan dari Use Case Diagram:
 1. **Home Menu**
    - **Fungsi Utama:**
      - Memberikan informasi umum tentang kesehatan dan sistem dari aplikasi.
@@ -146,10 +146,10 @@ Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik la
      - include:
        1. Relasi ke fitur Informasi tentang aplikasi dan creator.
 
-### Activity Diagram
+## Activity Diagram
 <img src="https://github.com/user-attachments/assets/d15decb9-0ee1-426d-8a36-986565eaccd7" alt="Activity Diagram" width="600"/>
 
-#### Penjelasan Alur Aktivitas:
+### Penjelasan Alur Aktivitas:
 1. **Masuk ke Home Menu:**
    - **Aktivitas Awal:**
      - Pengguna masuk ke Home Menu.
@@ -203,17 +203,17 @@ Berikut adalah hasil dari pelatihan model yang menunjukkan akurasi dan metrik la
    - **Proses:**
      - Aplikasi menampilkan informasi tentang aplikasi dan pembuatnya.
 
-### Class Diagram
+## Class Diagram
 <img src="https://github.com/user-attachments/assets/e6b48dba-a828-4250-b90b-beee9a377211" alt="Class Diagram" width="600"/>
 
-#### Deskripsi Umum Sistem
+### Deskripsi Umum Sistem
 Class diagram yang dibuat menggambarkan hubungan antara berbagai kelas dalam sistem, yaitu **BMICalculator**, **CalorieCalculator**, **SkinDiseaseClassifier**, dan **User **. Diagram ini menunjukkan struktur statis dari sistem, termasuk atribut, metode, dan relasi antar kelas. Sistem ini dirancang untuk:
 - Menghitung BMI dan memberikan kategori kesehatan.
 - Menghitung kebutuhan kalori harian berdasarkan data pengguna.
 - Mengklasifikasikan gambar penyakit kulit menggunakan model AI.
 - Mengelola data pengguna, seperti usia, berat badan, tinggi badan, jenis kelamin, dan tingkat aktivitas.
 
-#### Penjelasan Kelas
+### Penjelasan Kelas
 a. **BMICalculator**
 - **Atribut**: weight, height
 - **Metode**:
@@ -243,7 +243,7 @@ d. **User **
   - age, height, weight, gender, activity_level
 - **Fungsi**: Menyimpan data pengguna yang digunakan oleh kelas lain untuk perhitungan atau analisis.
 
-#### Hubungan Antar Kelas
+### Hubungan Antar Kelas
 a. **User  ↔ BMICalculator**
 - **Relasi**: Asosiasi
 - **Multiplicity**: 1..1 (Setiap pengguna memiliki satu objek BMICalculator untuk menghitung BMI).
@@ -260,14 +260,14 @@ c. **SkinDiseaseClassifier ↔ User**
 d. **SkinDiseaseClassifier ↔ TensorFlow, NumPy, Pillow**
 - **Penjelasan**: SkinDiseaseClassifier bergantung pada pustaka eksternal untuk memproses gambar, mengelola data numerik, dan menjalankan model AI.
 
-#### Multiplicity dalam Diagram
+### Multiplicity dalam Diagram
 - **1..1**: Setiap pengguna (user) memiliki tepat satu hubungan dengan BMICalculator dan CalorieCalculator.
 - SkinDiseaseClassifier dapat memproses banyak gambar, tetapi tidak terkait langsung dengan User.
 
-### Deployment Diagram
+## Deployment Diagram
 <img src="https://github.com/user-attachments/assets/b6daeaa8-9eff-4d17-9948-6b4529095449" alt="Deployment Diagram" width="600"/>
 
-#### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan tiga perangkat utama, yaitu Local Server, GitHub Repository, dan Web Server (Streamlit). Berikut adalah penjelasan tiap komponen:
+### Diagram deployment tersebut menunjukkan arsitektur sistem yang melibatkan tiga perangkat utama, yaitu Local Server, GitHub Repository, dan Web Server (Streamlit). Berikut adalah penjelasan tiap komponen:
 
 1. **Local Server**
    - **Browser / Client**: Digunakan oleh pengguna untuk mengakses aplikasi melalui antarmuka web.
