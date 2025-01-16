@@ -34,7 +34,7 @@ Aplikasi ini menggunakan beberapa kelas untuk menghitung BMI, kebutuhan kalori, 
 ## Pembuatan Aplikasi
 Aplikasi ini dibangun menggunakan **Streamlit**, sebuah framework Python yang memungkinkan pembuatan aplikasi web interaktif dengan cepat. Streamlit memudahkan pengembang untuk membuat antarmuka pengguna yang intuitif dan responsif, sehingga pengguna dapat dengan mudah mengakses fitur-fitur yang disediakan.
 
-## Tahapan Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
+## Pembuatan Model Machine Learning untuk Memprediksi Penyakit Kulit
 
 1. **Pengumpulan Data**: Mengumpulkan dataset gambar penyakit kulit yang telah diberi label.
 2. **Preprocessing Data**: Melakukan preprocessing pada gambar, termasuk resizing, normalisasi, dan augmentasi untuk meningkatkan variasi data dan mengurangi overfitting.
